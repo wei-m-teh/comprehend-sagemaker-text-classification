@@ -5,14 +5,10 @@ You can use Amazon Comprehend to build your own models for custom classification
 
 To train the classifier, specify the options you want, and send Amazon Comprehend documents to be used as training material. Based on the options you indicated, Amazon Comprehend creates a custom ML model that it trains based on the documents you provided. This custom model (the classifier) examines each document you submit. It then returns either the specific class that best represents the content (if you're using multi-class mode) or the set of classes that apply to it (if you're using multi-label mode).
 
-1. In the AWS console, select “Amazon Comprehend”
+1. In the AWS console, select `Amazon Comprehend`
 <img src="img/aws-console-comprehend.png" width="600">
-<br>
-<br>
-2. Click “Launch Amazon Comprehend”
+2. Click `Launch Amazon Comprehend`
 <img src="img/launch-comprehend.png" width="600">
-<br>
-<br>
 3. To create your models, complete the following steps:
 
   On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
@@ -28,10 +24,7 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
   * For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
   * For Name suffix, enter ticket-classification.
   * Choose Create.
-<br>
-<br>
-  <img src="img/create-new-comprehend-custom-classification.png" width="600">
-
+<img src="img/create-new-comprehend-custom-classification.png" width="600">
 
 4. Choose Create new model again to create your resource classification model.
   * For Model name, enter `ticket-classification-resource`.
@@ -43,15 +36,13 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
   * For IAM Role, select `Use an existing IAM role`.
   * For Role name, choose `AmazonComprehendServiceRole-ticket-classification`.
   * Choose create
-<br>
-<br>
 
-  <img src="img/create-new-comprehend-custom-classification-2.png" width="600">
-<br>
-<br>
+<img src="img/create-new-comprehend-custom-classification-2.png" width="600">
+
 5. Amazon Comprehend is now processing the CSV files and using them to train custom classifiers. We then use these to help classify customer tickets. The larger and more accurate our training data is, the more accurate the classifier will be.
 
 6. Wait for the version status to show as Trained as below. It may take up to 1 hour to complete, depending on the size of the training data.
+
 <img src="img/comprehend-classfier-models-list.jpeg" width="600">
 
 ## Create Amazon Comprehend endpoints
@@ -66,12 +57,8 @@ Amazon Comprehend endpoints are billed in 1-second increments, with a minimum of
   * For Version, choose `No Version Name`.
   * For Number of inference units (IUs), enter `1`.
   * Choose Create endpoint.
-<br>
-<br>
+<img src="img/comprehend-classification-endpoint-1.jpeg" width="600">
 
-  <img src="img/comprehend-classification-endpoint-1.jpeg" width="600">
-<br>
-<br>
 4. Choose Create endpoint again to create the resource classification endpoint.
 5. Provide the following information:
   * For Endpoint name, enter `ticket-classification-resource`.
@@ -80,11 +67,8 @@ Amazon Comprehend endpoints are billed in 1-second increments, with a minimum of
   * For Version, choose `No Version Name`.
   * For Number of inference units (IUs), enter `1`.
   * Choose Create endpoint.
-
 <img src="img/comprehend-classification-endpoint-2.jpeg" width="600">
 
-<br/>
-<br/>
 After you create both endpoints, wait until the status for both shows as `Active`.
 
 ## Test the Amazon Comprehend endpoints with real-time analysis
