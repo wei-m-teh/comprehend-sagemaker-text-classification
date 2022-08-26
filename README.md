@@ -29,39 +29,38 @@ Amazon SageMaker Studio is a web-based, integrated development environment (IDE)
 Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quick Setup:
 
 1. Open AWS console and switch to AWS region that your instructor would like you to use.
-![AWS Console](img/aws-console.png | width=100)
+<img src="img/aws-console.png" width="700">
 
 2. In the search bar, type SageMaker and click on Amazon SageMaker.
-![AWS Console For SageMaker](img/aws-console-sagemaker.png)
+<img src="img/aws-console-sagemaker.png" width="700">
 
 3. Click on Amazon SageMaker Studio (first option on the left pane).  
-![AWS Sagemaker Console](img/sagemaker-console.png)
+<img src="img/sagemaker-console.png" width="700">
 
 4. Click on Quick start.
 5. Define Name as sagemakeruser for example.
-![Sagemaker Domain Quickstart](img/quick-start-sagemaker-domain.png)
+<img src="img/quick-start-sagemaker-domain.png" width="700">
 
 6. Select Create a new role under Execution role.
-![Create A New Role](img/sagemaker-studio-domain-new-role.png)
+<img src="img/sagemaker-studio-domain-new-role.png" width="700">
 
 7. Keep the default and click Create Role.
-![Create A New Role Default](img/sagemaker-studio-domain-new-role-2.png)
+<img src="img/sagemaker-studio-domain-new-role-2.png" width="500">
 
 8. You will see that the role is successfully created.
-![Role Creation Success](img/sagemaker-domain-new-role-create-success.png)
+<img src="img/sagemaker-domain-new-role-create-success.png" width="700">
 
 9. Click Submit. The SageMaker Studio environment will stay in Pending state for a few minutes.
-![Submit Sagemaker Studio Domain Creation](img/sagemaker-domain-provisioning.png)
+<img src="img/sagemaker-domain-provisioning.png" width="700">
 
 10. After a few minutes, the SageMaker Studio Domain will be provisioned. Click on Studio under Launch app on the right of the screen.
-![Sagemaker Studio Domain Creation Success](img/sagemaker-studio-domain-provision-success.png)
+<img src="img/sagemaker-studio-domain-provision-success.png" width="700">
 
 11. Once Amazon SageMaker Studio is ready then click on Open Studio. The page can take 1 or 2 minutes to load when you access SageMaker Studio for the first time.
-
-![Launching Studio Session](img/open-sagemaker-studio-session-banner.png)
+<img src="img/open-sagemaker-studio-session-banner.png" width="400">
 
 12. You will be redirected to a new web tab that looks like this:
-![Studio Launcher](img/sagemaker-studio-session-launcher.png)
+<img src="img/sagemaker-studio-session-launcher.png" width="700">
 
 Preprocess Data
 In this lab we will be using a notebook in Amazon SageMaker to preprocess data in the format that Comprehend needs to use. Note that this code can be run in many different ways - a notebook is handy to run and explain code.
