@@ -9,33 +9,31 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
 <img src="img/aws-console-comprehend.png" width="600">
 2. Click `Launch Amazon Comprehend`
 <img src="img/launch-comprehend.png" width="600">
-3. To create your models, complete the following steps:
-
-  On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
-  * Choose Create new model.
-  * Provide the following information:
-  * For Model name, enter `ticket-classification-operation`.
-  * For Language, choose `English`.
-  * For Classifier mode, select Using `Single-label` mode.
-  * For Data format, select `CSV file`.
-  * For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook) for `training_data_operations.csv`.
-  * For Test data source, select `Autosplit`. Autosplit automatically selects 10% of your provided training data to use as testing data.
-  * For IAM Role, select Create an IAM role.
-  * For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
-  * For Name suffix, enter ticket-classification.
-  * Choose Create.
+3. On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
+   - Choose Create new model.
+   - Provide the following information:
+   - For Model name, enter `ticket-classification-operation`.
+   - For Language, choose `English`.
+   - For Classifier mode, select Using `Single-label` mode.
+   - For Data format, select `CSV file`.
+   - For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook) for `training_data_operations.csv`.
+   - For Test data source, select `Autosplit`. Autosplit automatically selects 10% of your provided training data to use as testing data.
+   - For IAM Role, select Create an IAM role.
+   - For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
+   - For Name suffix, enter ticket-classification.
+   - Choose Create.
 <img src="img/create-new-comprehend-custom-classification.png" width="600">
 
 4. Choose Create new model again to create your resource classification model.
-  * For Model name, enter `ticket-classification-resource`.
-  * For Language, choose `English`.
-  * For Classifier mode, select Using `Single-label` mode.
-  * For Data format, select `CSV file`.
-  * For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook)for `training_data_resources.csv`.
-  * For Test data source, select `Autosplit`.
-  * For IAM Role, select `Use an existing IAM role`.
-  * For Role name, choose `AmazonComprehendServiceRole-ticket-classification`.
-  * Choose create
+   - For Model name, enter `ticket-classification-resource`.
+   - For Language, choose `English`.
+   - For Classifier mode, select Using `Single-label` mode.
+   - For Data format, select `CSV file`.
+   - For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook)for `training_data_resources.csv`.
+   - For Test data source, select `Autosplit`.
+   - For IAM Role, select `Use an existing IAM role`.
+   - For Role name, choose `AmazonComprehendServiceRole-ticket-classification`.
+   - Choose create
 
 <img src="img/create-new-comprehend-custom-classification-2.png" width="600">
 
@@ -51,22 +49,22 @@ Amazon Comprehend endpoints are billed in 1-second increments, with a minimum of
 1. On the Amazon Comprehend console, choose Endpoints in the navigation pane.
 2. Choose Create endpoint to create your operation classification endpoint.
 3. Provide the following information:
-  * For Endpoint name, enter `ticket-classification-operation`.
-  * For Custom model type, select `Custom classification`.
-  * For Classifier model, choose `ticket-classification-operation`.
-  * For Version, choose `No Version Name`.
-  * For Number of inference units (IUs), enter `1`.
-  * Choose Create endpoint.
+   - For Endpoint name, enter `ticket-classification-operation`.
+   - For Custom model type, select `Custom classification`.
+   - For Classifier model, choose `ticket-classification-operation`.
+   - For Version, choose `No Version Name`.
+   - For Number of inference units (IUs), enter `1`.
+   - Choose Create endpoint.
 <img src="img/comprehend-classification-endpoint-1.jpeg" width="600">
 
 4. Choose Create endpoint again to create the resource classification endpoint.
 5. Provide the following information:
-  * For Endpoint name, enter `ticket-classification-resource`.
-  * For Custom model type, select `Custom classification`.
-  * For Classifier model, choose `ticket-classification-resource`.
-  * For Version, choose `No Version Name`.
-  * For Number of inference units (IUs), enter `1`.
-  * Choose Create endpoint.
+   - For Endpoint name, enter `ticket-classification-resource`.
+   - For Custom model type, select `Custom classification`.
+   - For Classifier model, choose `ticket-classification-resource`.
+   - For Version, choose `No Version Name`.
+   - For Number of inference units (IUs), enter `1`.
+   - Choose Create endpoint.
 <img src="img/comprehend-classification-endpoint-2.jpeg" width="600">
 
 After you create both endpoints, wait until the status for both shows as `Active`.
