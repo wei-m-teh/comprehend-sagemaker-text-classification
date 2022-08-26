@@ -2,7 +2,7 @@
 ## Overview
 This Immersion Day provides customers with hands-on experience with Amazon Comprehend and Amazon SageMaker demonstrating how they can build natural language processing (NLP) use cases, and is specifically designed to help us accelerate a customer opportunity.
 
-After attending this Immersion Day, customers would be able to leverage the service to predict the classfication for any given text. 
+After attending this Immersion Day, customers would be able to leverage the service to predict the classfication for any given text.
 
 ## AWS Accounts
 For running an Immersion Day where you need to use your own AWS accounts. Follow the below best practices:
@@ -23,7 +23,7 @@ This workshop must be run only in regions where Amazon Comprehend is generally a
 ### Amazon SageMaker
 Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models.
 
-### Launch Amazon SageMaker Studio 
+### Launch Amazon SageMaker Studio
 Amazon SageMaker Studio is a web-based, integrated development environment (IDE) for machine learning that lets you build, train, debug, deploy, and monitor your machine learning models. Studio provides all the tools you need to take your models from experimentation to production while boosting your productivity.
 
 Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quick Setup:
@@ -62,10 +62,15 @@ Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quic
 12. You will be redirected to a new web tab that looks like this:
 <img src="img/sagemaker-studio-session-launcher.png" width="700">
 
+13. To check out this github repository, open a Sagemaker Studio terminal
+<img src="img/studio-open-terminal.png" width="400">
+
+14. In the terminal, checkout the github repository: `git clone https://github.com/wei-m-teh/comprehend-sagemaker-text-classification`
+<img src="img/git-clone-repo.png " width="500">
+
 Preprocess Data
 In this lab we will be using a notebook in Amazon SageMaker to preprocess data in the format that Comprehend needs to use. Note that this code can be run in many different ways - a notebook is handy to run and explain code.
 
-Open the comprehend-news-transform.ipynb in Amazon SageMaker Notebook that you provisioned by following the below steps. This Notebook is located in the following Git repository: https://github.com/aws-samples/comprehend-immersion-day 
+Open the comprehend-news-transform.ipynb in Amazon SageMaker Notebook that you provisioned by following the below steps. This Notebook is located in the following Git repository: https://github.com/aws-samples/comprehend-immersion-day
 
 In the AWS console, Under services search for Amazon SageMaker
-
