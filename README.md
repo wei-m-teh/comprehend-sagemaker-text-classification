@@ -57,6 +57,7 @@ Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quic
 ![Sagemaker Studio Domain Creation Success](img/sagemaker-studio-domain-provision-success.png)
 
 11. Once Amazon SageMaker Studio is ready then click on Open Studio. The page can take 1 or 2 minutes to load when you access SageMaker Studio for the first time.
+
 ![Launching Studio Session](img/open-sagemaker-studio-session-banner.png)
 
 12. You will be redirected to a new web tab that looks like this:
