@@ -68,9 +68,4 @@ Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quic
 14. In the terminal, checkout the github repository: `git clone https://github.com/wei-m-teh/comprehend-sagemaker-text-classification`
 <img src="img/git-clone-repo.png " width="500">
 
-Preprocess Data
-In this lab we will be using a notebook in Amazon SageMaker to preprocess data in the format that Comprehend needs to use. Note that this code can be run in many different ways - a notebook is handy to run and explain code.
-
-Open the comprehend-news-transform.ipynb in Amazon SageMaker Notebook that you provisioned by following the below steps. This Notebook is located in the following Git repository: https://github.com/aws-samples/comprehend-immersion-day
-
-In the AWS console, Under services search for Amazon SageMaker
+15. Proceed to [Preprocessing](README.preproc.md) step
