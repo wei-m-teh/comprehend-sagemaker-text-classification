@@ -29,7 +29,7 @@ Amazon SageMaker Studio is a web-based, integrated development environment (IDE)
 Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quick Setup:
 
 1. Open AWS console and switch to AWS region that your instructor would like you to use.
-![AWS Console](img/aws-console.png)
+![AWS Console](img/aws-console.png | width=100)
 
 2. In the search bar, type SageMaker and click on Amazon SageMaker.
 ![AWS Console For SageMaker](img/aws-console-sagemaker.png)
