@@ -12,16 +12,16 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
 3. On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
    - Choose Create new model.
    - Provide the following information:
-   - For Model name, enter `ticket-classification-operation`.
-   - For Language, choose `English`.
-   - For Classifier mode, select Using `Single-label` mode.
-   - For Data format, select `CSV file`.
-   - For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook) for `training_data_operations.csv`.
-   - For Test data source, select `Autosplit`. Autosplit automatically selects 10% of your provided training data to use as testing data.
-   - For IAM Role, select Create an IAM role.
-   - For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
-   - For Name suffix, enter ticket-classification.
-   - Choose Create.
+     - For Model name, enter `ticket-classification-operation`.
+     - For Language, choose `English`.
+     - For Classifier mode, select Using `Single-label` mode.
+     - For Data format, select `CSV file`.
+     - For Training dataset, enter the S3 path (the path referenced in the Sagemaker Studio Notebook) for `training_data_operations.csv`.
+     - For Test data source, select `Autosplit`. Autosplit automatically selects 10% of your provided training data to use as testing data.
+     - For IAM Role, select Create an IAM role.
+     - For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
+     - For Name suffix, enter ticket-classification.
+     - Choose Create.
 <img src="img/create-new-comprehend-custom-classification.png" width="600">
 
 4. Choose Create new model again to create your resource classification model.
