@@ -7,8 +7,10 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
 
 1. In the AWS console, select `Amazon Comprehend`
 <img src="img/aws-console-comprehend.png" width="600">
+
 2. Click `Launch Amazon Comprehend`
 <img src="img/launch-comprehend.png" width="600">
+
 3. On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
    * Choose Create new model.
    * Provide the following information:
