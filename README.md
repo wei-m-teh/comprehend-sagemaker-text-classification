@@ -68,4 +68,4 @@ Here are the one-time steps for onboarding to Amazon SageMaker Studio using Quic
 14. In the terminal, checkout the github repository: `git clone https://github.com/wei-m-teh/comprehend-sagemaker-text-classification`
 <img src="img/git-clone-repo.png " width="500">
 
-15. Proceed to [Preprocessing](README.preproc.md) step
+15. Proceed to the [Preprocessing](README.preproc.md) step
