@@ -33,7 +33,7 @@ Open AWS console and switch to AWS region you would like to use.
 
 
 If the AWS Account has been provisioned by your AWS Instructor, follow the next steps to access the SageMaker Studio environment:
-
+[AWS Console](img/aws-console.png)
 
 Preprocess Data
 In this lab we will be using a notebook in Amazon SageMaker to preprocess data in the format that Comprehend needs to use. Note that this code can be run in many different ways - a notebook is handy to run and explain code.
