@@ -12,8 +12,8 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
 <img src="img/launch-comprehend.png" width="600">
 
 3. On the Amazon Comprehend console, choose `Custom classification` in the navigation pane.
-   * Choose Create new model.
-   * Provide the following information:
+   - Choose Create new model.
+   - Provide the following information:
      - For Model name, enter `ticket-classification-operation`.
      - For Language, choose `English`.
      - For Classifier mode, select Using `Single-label` mode.
