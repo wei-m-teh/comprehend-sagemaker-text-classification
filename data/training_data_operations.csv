@@ -1,0 +1,231 @@
+﻿Update,"Change timezone on server
+ Please change the timezone on the following server from UTC to PST.
+i-abcd1234"
+Update,"UpdateTimeZone
+ Change to AEST time zone as requested by the application development team."
+Update,"Update temporary user on i-183865cdfgawerk3 (Migration-1)
+ Update temporary user on i-183865cdfgawerk3 (Migration-1). Username is temp."
+Update,"EC2 name change
+ Hi Team
+
+Requesting to change the instance name for the below instances.
+From: WebApp-1
+To: WebApplication-1
+Instance ID: i-ab1578276145
+
+Thanks,
+Jerry"
+Update,"Update the cron task on ec2 instance
+ Update the cron as below.
+
+cron(0 0 ? * MONDAY *) UTC -> cron(0 0 ? * SUNDAY *) UTC"
+Update,"Update Public IP address to EC2 instance
+ Please allocate new public IP address to instance i-abcd1234"
+Update,"Change computer name
+ Hi,
+
+We need to have new computer name for EC2 instances. Could you please help us to change the computer name? Thanks!
+i-345szjfawfjhr1
+New Computer Name: EC2Test"
+Update,"Update key pair to ec2
+ Hi team, we need to update key pair for i-abcd1234 as it is leaked. Call me if you need any further info."
+Update,"Resize ec2 instance
+ Please update ec2 instance type from t2.micro to t2.large. Thanks!"
+Update,"Update OS on all ec2 instances.
+ Update OS on all linux ec2 instances to Amazon Linux 2."
+Create,"Create an EC2 instance using a custom AMI
+ Please create an ec2 instance using the following details:
+AMI Id: ami-agi1782134hks
+VPC Id: vpc-asdgesrhwewr1
+Subnet Id: subnet-dsfgh7oy2r3qawfe
+Security group id: sg-sdfhgwro21
+Instance Type: m5.xlarge"
+Create,"Create Suse Linux instance 
+ Please create suse ec2 instance. Use t2.large instance type and default vpc."
+Create,"Launch new instances for migration
+ We need two new instances to upgrade from legacy Window"
+Create,"Please launch an instance with ami-eatri284i1yu14 for app backend server.
+ Please launch an instance with ami-eatri284i1yu14. Install SSM Agent."
+Create,"Create an Instance for the frontend server from Marketplace AMI
+ Please create a front end instance launched from marketplace ami. Once created, please test if port 80/443 works."
+Create,"Deploy an standalone EC2 instance from AMI ami-sdt928345tyaskgu
+ Create an standalone EC2 instance from AMI ami-sdt928345tyaskgu"
+Create,"Create EC2 from backup - windows
+ We accidentally deleted EC2 instances. We need a new ec2 instance from below snapshots.
+Snapshot ID: snapshot-214213a956813
+Tag: Cost Center: 1002"
+Create,"Please create a new instance from an existing snapshot
+ Kindly create a new instance from an existing snapshot of i-12o7saf586wyr
+This is required to perform DR exercise. Thanks."
+Create,"Test instance from AMI - ami-e346weartkagsd
+ Could you please deploy the EC2 from AMI - ami-e346weartkagsd, and put the termination protection ""ON"" on the instance and join it to the domain.
+After the instance is joined to domain, update patches."
+Create,"Request to launch instance from Marketplace AMI
+ Please help creating new server in us-east-1 region.
+
+1. Create new EC2 instance from AMI from Marketplace. The AMI name is: LAMP Stack.
+2. Please create this instance in the subnet: subnet-wrtytfai23rag
+3. Please add the Tag to the EC2 instance Name: LAMPStack
+4. Please add the Tag to the EC2 instance CostCenter:1234
+5. Once stood up, Please create an AMI."
+Delete,"Terminate instances
+ Terminate the following instances.
+
+i-dst9q78rq2gkjhsg, 
+i-1y734ot5,kzdfjs, 
+i-230078shg,sgarga"
+Delete,"Terminate Instance:  i-4357sagfakerwaearg 
+ Team,
+
+Request you to terminate Instance:  i-4357sagfakerwaearg.
+
+Please take final snapshot and let me know snapshot ID."
+Delete,"Delete EC2 instances
+ Please delete all ec2 instances tagged with CostCenter=1002. Thank you."
+Delete,"Clean Up the EC2 instances 
+ Please terminate the following instances without taking any backups or snapshots.
+
+i-24iao23rggbaert
+i-124dsfgkjsgaerg"
+Delete,"Need to terminate Instances as part of cost reduction plan
+ Please terminate all instances with io1 storage."
+Delete,"Delete listed ec2 instances after taking AMI backup
+ Hi Team,
+
+Please delete the instances listed below after taking AMI backup for each instance. Please make sure AMI backup is in place before deleting the instance. The associated EBS volumes also should be deleted. 
+
+i-sdfo7g869r432gkshfg
+i-sdfgiqwkgalt1123
+i-8961hkjlslkdjgawe"
+Delete,"Delete old instances
+ Hi support, please delete all instances which is never touched within last 12 months.
+"
+Delete,"Delete temporary instances
+ Please delete all test instances which has Type=Test tags."
+Delete,"Need to delete instance i-023234236514sat5
+ This instance is no longer needed hence need to terminate it. "
+Delete,"Remove old jenkins instance
+ Hi Team,
+
+Please delete all old jenkins instances."
+Start/Stop,"Stop non-prod Ec2 instance
+ Hi Team,
+
+Please stop non-prod EC2 instance mentioned below : 
+i-sdrt798q23kgrjsgafaw"
+Start/Stop,"Please restart the following instances
+ Please reboot the following instances
+Instance ID 
+i-23i7awegaweflseg1
+i-wo723yglsgbalwe"
+Start/Stop,"Start backend ec2 instances.
+ Please start all ec2 instances tagged with Name=backend"
+Start/Stop,"Stop QA instances for the weekend
+ Please stop QA instances for the weekend so we can reduce the cost.
+"
+Start/Stop,"Please start QA instances
+ Please start QA instances"
+Start/Stop,"Restart test instances
+ Something is wrong while testing. Please restart test instances."
+Start/Stop,"Stop all windows instances on Tuesday
+ We will have maintenance on this Tuesday. Stop all windows instances."
+Start/Stop,"Stop unused instances
+ Please stop unused instances, which has no traffic in last month
+"
+Start/Stop,"Start all ec2 instances for patching
+ We need to patch all instances. Please start all stopped instances."
+Start/Stop,"Restart patched instances.
+ Please restart all instances that needs reboot after patch."
+Update,"Please enable multi-az on rds
+ Update multi-az for below RDS
+rds-prod-app
+rds-gamma-test"
+Update,"Update RDS Certificate
+ Hi Team, update certificate of below rds database to rds-ca-2019.
+
+- RDS database: soondori
+- Certificate: rds-ca-2019"
+Update,"Update DB option group
+ Hi support,
+
+Could you please update RDS option group prod-app-options and add below additional options to it:
+SQLNET.CIPHER_SUITE: SSL_RSA_WITH_AES_256_CBC_SHA
+SQLNET.SSL_VERSION: 1.2"
+Update,"Update the SSL Cert for the RDS db instance
+ Pleae update the RDS SSL/TLS certificates for the DB instance ""w78kjfa"".
+
+Update the certificate authority for the above DB instance from rds-ca-2015  to rds-ca-2019."
+Update,"Change RDS instance type for prod db
+ Please update RDS instance type from db.m4.large to db.m4.2xlarge."
+Update,"Change RDS DB timezone from AEST to UTC
+ Please update RDS instance to use UTC timezone."
+Update,"Update RDS DB Master Password for all prod instances
+ Password will be sent through Secrets Manager."
+Update,"Enable protection
+ Please update all prod RDS instance and enable delete protection."
+Update,"Update RDS DB engine
+ Update RDS Aurora engine version for all gamma DB instances."
+Update,"Update backup retention period
+ Update RDS instance backup retention period from 1 week to 2 weeks."
+Delete,"Delete Oracle RDS instances
+ We recently migrated all oracle db instances to Aurora. Please terminate all oracle RDS instances."
+Delete,"Delete unused RDS DB
+ Delete all RDS DB instances which is unused in last 1 year. Please take final snapshots."
+Delete,"Delete RDS Option Group and associated RDS instances.
+ Hi Team, please delete RDS option group named 'web-db-01' and all associated RDS instances."
+Delete,"Kindly delete Session RDS DB instance
+ Delete RDS db instances tagged with Type=Session. Do not take final snapshots."
+Delete,"Delete RDS snapshots
+ Please delete all RDS snapshots taken before 2020."
+Delete,"Terminate RDS DB
+ Please terminate net-db-mysql-05 and its associated option group."
+Delete,"Delete DB Subnet Group
+ Please delete RDS DB Subnet Group for vpc-1234abcd. This VPC will be deleted."
+Delete,"Terminate RDS instance after taking the full snapshot
+ ""Terminate below RDS instances after taking the full Snapshot
+
+wr78omawk
+91gqkgyasdf
+wqjk123sf"
+Delete,"Delete restored RDS instances
+ Please delete all restored RDS instances as they are no longer needed."
+Delete,"Delete QA RDS DB instances
+ Delete following DB instances.
+
+QA-001
+QA-003"
+Start/Stop,"Stop and start non production RDS
+ Hi team,
+
+Please stop ALL RDS instances after work hours. And start it again 30 minutes before we return to work.
+
+Our work hours: Monday - Friday (9AM-7PM) GMT."
+Start/Stop,"Stop RDS
+ Stop the below RDS instances.
+
+dsg7o81t2g4a
+2wqerqkg
+"
+Start/Stop,"Restart RDS instance
+ Restart gamma RDS instances."
+Start/Stop,"Start prod RDS DB instances
+ Hi Team, 
+
+Please start below mentioned PROD RDS instance : 
+news-prod-001"
+Start/Stop,"Start QA DB instances
+ please start below RDS instances.
+QA-SEA-05
+QA-IAD-13"
+Start/Stop,"Stopping RDS instance
+ Hi support,
+
+Could you please STOP RDS instance eatwwky1s? No snapshot is needed for this instance."
+Start/Stop,"Restart dev db instance
+ Please restart all dev RDS instances."
+Start/Stop,"Stop old DB instances.
+ Please stop old DB instances created in last year."
+Start/Stop,"Reboot test databases
+ Please reboot test databases. These RDS instances have type=test tag."
+Start/Stop,"Starting beta db instances
+ Please start all beta RDS db instances on Wed 1:00 PST, thanks."
