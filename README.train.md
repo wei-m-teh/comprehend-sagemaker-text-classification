@@ -22,7 +22,7 @@ To train the classifier, specify the options you want, and send Amazon Comprehen
      - For Test data source, select `Autosplit`. Autosplit automatically selects 10% of your provided training data to use as testing data.
      - For IAM Role, select Create an IAM role.
      - For Permissions to access, choose the training, test, and output data (if specified) in your S3 buckets.
-     - For Name suffix, enter ticket-classification.
+     - For Name suffix, enter `ticket-classification`.
      - Choose Create.
 <img src="img/create-new-comprehend-custom-classification.png" width="600">
 
