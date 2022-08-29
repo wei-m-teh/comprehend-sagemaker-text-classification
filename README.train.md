@@ -85,7 +85,7 @@ To test your endpoints, complete the following steps:
   ```
 5. Choose Analyze.
 The results show that the Update class has the highest confidence score.
-6. Change Endpoint to ticket-classification-resource and choose Analyze again.
+6. Change Endpoint to `ticket-classification-resource` and choose Analyze again.
 The results show that the EC2 class has the highest confidence score.
 
 <img src="img/comprehend-inference-analysis.jpeg" width="600">
